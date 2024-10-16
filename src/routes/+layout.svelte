@@ -14,7 +14,7 @@
 
   // Memantau perubahan pada path untuk menyembunyikan navbar pada halaman tertentu
   $: {
-    const hideNavbarOnPaths = ['/dashboard%20guru', '/login', '/'];
+    const hideNavbarOnPaths = ['/dashboard%20guru', '/login', '/', '/dashboard%20murid/jiko%20shoukai'];
     showNavbar = !hideNavbarOnPaths.includes($page.url.pathname);
   }
 </script>

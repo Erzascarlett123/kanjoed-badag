@@ -19,7 +19,7 @@
   
     function navigateToDashboard() {
         // Navigasi ke halaman dashboard
-        goto('/dashboard murid'); // Pastikan ini mengarah ke halaman yang benar
+        goto('/dashboard murid/jiko shoukai'); // Pastikan ini mengarah ke halaman yang benar
     }
   </script>
   
